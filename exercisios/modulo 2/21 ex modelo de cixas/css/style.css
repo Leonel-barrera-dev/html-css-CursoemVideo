@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray; */
+    border: 10px solid darkslategray;
+
+    padding: 10px 20px;
+
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+
+    margin: 20px auto 40px auto;
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px; */
+
+
+
+    /*    OUTLINE     */
+    /* 
+    WIDTH  = tamanho da linha fora da margem 
+    STYLE  = estilo da linha fora da margem
+    COLOR  = color da linha fora da margem
+    OFFSET = da uma separação entre o margem e a nova linha
+    */  
+    outline: 5px dashed salmon;
+    /*
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+    */
+}
+
+a {
+    border-width: 10px;
+    border-style: groove;
+    /* exemplos de bodes (estilos)
+    solid  = linha solida
+    dashed = pontilhado (recto)
+    dotted = pontilhado (circular)
+    groove = dupla linha (batente)
+    double = dupla linha (separadas)
+    */
+    border-color: red;
+    padding: 10px;
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+}
