@@ -15,6 +15,15 @@
             width: 500px;
         }
 
+        caption {
+            font-style: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            border: 1px solid black;
+            border-bottom: 0px solid black;
+        }
+
         td,
         th {
             border: 1px solid black;
@@ -37,17 +46,24 @@
     <table>
         <!-- 
     Anatomia para tabela grandes
-    Table
-        Thead
-            tr, td ,th
-        tbody
-            tr, td ,th
-        Tfoot
-            tr, td ,th
-    -->
+        Table
+            Caption = Legenda
+            Thead
+                tr, td ,th
+            tbody
+                tr, td ,th
+            Tfoot
+                tr, td ,th
+
+            TH = TITULO
+            TD = DADOS
+      -->
+        <caption>População das unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
         </thead>
 
         <tbody>
@@ -161,8 +177,8 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de habitantes</th>
-            <td class="num"><strong>213.421.037</strong></td>
+            <th scope="row">Total de habitantes</th>
+            <td class="num" scope="row"><strong>213.421.037</strong></td>
         </tfoot>
     </table>
 </body>
