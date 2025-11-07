@@ -13,46 +13,53 @@
         table {
             border-collapse: collapse;
             width: 500px;
+            position: relative;
+        }
+
+        thead tr th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
         }
 
         caption {
             font-style: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: rgb(20, 8, 177);
+            background-color: lightgray;
             border: 1px solid black;
             border-bottom: 0px solid black;
-            color: white;
-        }
-
-        td,
-        th {
-            border: 1px solid black;
         }
 
         thead,
         tfoot {
-            background-color: blue;
+            background-color: #383838;
             color: white;
+        }
+
+        /*  Even     impar
+            Odd      par
+            2N       pula uma celula
+            2N-1     pula uma celula (muda o inicio)*/
+        tbody tr:nth-child(even) {
+            /* impar ou 2n */
+            background-color: white;
+        }
+
+        tbody tr:nth-child(odd) {
+            /* par ou 2n-1  */
+            background-color: lightgray;
         }
 
         .num {
             text-align: right;
         }
-
-        /* 
-        Even     impar
-        Odd      par
-        2N       pula uma celula
-        2N-1     pula uma celula (muda o inicio)
-        */
-        tbody tr:nth-child(even) { /* impar ou 2n */
-            background-color: skyblue;
-        }
-        tbody tr:nth-child(odd) { /* par ou 2n-1  */
-            background-color: lightblue;
-        }
-
     </style>
 </head>
 
