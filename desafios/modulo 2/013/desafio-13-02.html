@@ -12,10 +12,11 @@
 
         table {
             border-collapse: collapse;
+            text-align: center;
         }
 
         tr td {
-            padding: 20px;
+            padding: 20px 40px;
             border: 1px solid black;
         }
     </style>
@@ -25,25 +26,27 @@
 
     <table>
         <tr>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-            <td>E</td>
+            <td rowspan="5">C</td>
+            <td colspan="3">A</td>
+            <td rowspan="4">B</td>
         </tr>
         <tr>
+            <td>D</td>
+            <td>E</td>
             <td>F</td>
+        </tr>
+        <tr>
             <td>G</td>
             <td>H</td>
             <td>I</td>
-            <td>J</td>
         </tr>
         <tr>
+            <td>J</td>
             <td>L</td>
             <td>M</td>
-            <td>N</td>
         </tr>
         <tr>
+            <td colspan="4">N</td>
         </tr>
 
     </table>
