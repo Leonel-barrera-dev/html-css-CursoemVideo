@@ -24,13 +24,12 @@
         caption {
             font-size: 1.2em;
             font-weight: bolder;
-            padding: 20px;
+            padding: 10px;
         }
 
         th,
         td {
             border: 1px solid black;
-            padding: 10px px;
         }
 
         tr:nth-child(even) {
@@ -39,139 +38,147 @@
 
         tr:nth-child(odd) {
             background-color: white;
+
         }
 
+        .t-center td {
+            text-align: center;
+        }
+
+        .t-center td:nth-child(1) {
+            text-align: left;
+        }
     </style>
 </head>
 
 <body>
-        <table>
-            <caption>Venda de produtos por mês</caption>
-            <thead>
-                <tr>
-                    <th>Produto</th>
-                    <th>Jan</th>
-                    <th>Fev</th>
-                    <th>Mar</th>
-                    <th>Abr</th>
-                    <th>Mai</th>
-                    <th>Jun</th>
-                    <th>Jul</th>
-                    <th>Ago</th>
-                    <th>Set</th>
-                    <th>Out</th>
-                    <th>Nov</th>
-                    <th>Dez</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>TV 40"</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>07</td>
-                    <td>12</td>
-                    <td>12</td>
-                    <td>10</td>
-                    <td>05</td>
-                    <td>02</td>
-                    <td>01</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>16</td>
-                </tr>
-                <tr>
-                    <td>Home Theater</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>07</td>
-                    <td>12</td>
-                    <td>12</td>
-                    <td>10</td>
-                    <td>05</td>
-                    <td>02</td>
-                    <td>01</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>16</td>
-                </tr>
-                <tr>
-                    <td>Samsung Galaxy S20</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>07</td>
-                    <td>12</td>
-                    <td>12</td>
-                    <td>10</td>
-                    <td>05</td>
-                    <td>02</td>
-                    <td>01</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>16</td>
-                </tr>
-                <tr>
-                    <td>Ipad Mini</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>07</td>
-                    <td>12</td>
-                    <td>12</td>
-                    <td>10</td>
-                    <td>05</td>
-                    <td>02</td>
-                    <td>01</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>16</td>
-                </tr>
-                <tr>
-                    <td>PlayStation 4</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>07</td>
-                    <td>12</td>
-                    <td>12</td>
-                    <td>10</td>
-                    <td>05</td>
-                    <td>02</td>
-                    <td>01</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>16</td>
-                </tr>
-                <tr>
-                    <td>Lava Louças</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>07</td>
-                    <td>12</td>
-                    <td>12</td>
-                    <td>10</td>
-                    <td>05</td>
-                    <td>02</td>
-                    <td>01</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>16</td>
-                </tr>
-                <tr>
-                    <td>Amazon Echo</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>07</td>
-                    <td>12</td>
-                    <td>12</td>
-                    <td>10</td>
-                    <td>05</td>
-                    <td>02</td>
-                    <td>01</td>
-                    <td>01</td>
-                    <td>04</td>
-                    <td>16</td>
-                </tr>
-            </tbody>
-        </table>
+    <table>
+        <caption>Venda de produtos por mês</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Jan</th>
+                <th>Fev</th>
+                <th>Mar</th>
+                <th>Abr</th>
+                <th>Mai</th>
+                <th>Jun</th>
+                <th>Jul</th>
+                <th>Ago</th>
+                <th>Set</th>
+                <th>Out</th>
+                <th>Nov</th>
+                <th>Dez</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="t-center">
+                <td>TV 40"</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr class="t-center">
+                <td>Home Theater</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr class="t-center">
+                <td>Samsung Galaxy S20</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr class="t-center">
+                <td>Ipad Mini</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr class="t-center">
+                <td>PlayStation 4</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr class="t-center">
+                <td>Lava Louças</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+            <tr class="t-center">
+                <td>Amazon Echo</td>
+                <td>01</td>
+                <td>04</td>
+                <td>07</td>
+                <td>12</td>
+                <td>12</td>
+                <td>10</td>
+                <td>05</td>
+                <td>02</td>
+                <td>01</td>
+                <td>01</td>
+                <td>04</td>
+                <td>16</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
